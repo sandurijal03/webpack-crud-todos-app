@@ -1,0 +1,33 @@
+.todo-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin-top: 10px;
+  width: 600px;
+}
+
+.buttons-container {
+  padding: 10px;
+}
+
+.completed-button {
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: lightgreen;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.deleted-button {
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-left: 10px;
+}
